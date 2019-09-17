@@ -1,0 +1,15 @@
+---
+
+- name: install NHC package
+  yum:
+    name: "{{ nhc_packages }}"
+  tags: nhc
+
+- name: copy nhc.conf
+  template:
+    src: "{{ nhc_src | default('nhc.conf') }}"
+    dest: "{{ nhc_dest }}"
+    mode: 0600
+    owner: root
+    group: root
+  tags: nhc

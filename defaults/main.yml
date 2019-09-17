@@ -1,0 +1,6 @@
+---
+
+nhc_packages:
+  - nhc-ohpc
+
+nhc_dest: /etc/nhc/nhc.conf

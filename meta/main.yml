@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: ruimiguel
+  description: LBNL Node Health Check (NHC)
+  company: MACC
+  license: MIT
+  min_ansible_version: 2.4
+  platforms:
+    - name: CentOS
+      versions:
+        - all
+  galaxy_tags:
+    - compute
+    - node
+    - monitor
+    - nhc
+dependencies:
+  - macc.yum-repositories
