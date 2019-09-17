@@ -15,4 +15,5 @@ galaxy_info:
     - monitor
     - nhc
 dependencies:
-  - macc.yum-repositories
+  - src: https://github.com/macc-hpc/ansible-yum-repositories
+    name: macc.yum-repositories
